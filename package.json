@@ -6,7 +6,7 @@
   "author": "Ioannis Tziligkakis <gtsiligkakis@gmail.com>",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html --public-url ./ --out-dir docs",
     "prettify": "prettier --write ./src/**/*.js"
   },
   "dependencies": {

@@ -1,8 +1,9 @@
 {
-  "name": "tetric-live-coding",
+  "name": "html5-tetris-clone",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Tetris game clone written in HTML, JavaScript and CSS",
   "main": "index.html",
+  "author": "Ioannis Tziligkakis <gtsiligkakis@gmail.com>",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",

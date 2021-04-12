@@ -1,0 +1,57 @@
+body {
+  background: #202020;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-grey-terrazzo.png");
+  color: #ccc;
+  font-family: Consolas, Courier, monospace;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+h1 {
+  background-color: #000;
+  font-family: Troika, 'Courier New', Courier, monospace;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  text-shadow: 2px 2px #1b6c53;
+  width: 300px;
+  padding: 6px 0
+}
+
+#score {
+  background-color: #1d1d1d;
+  font-family: Troika, 'Courier New', Courier, monospace;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 2px 2px #1b6c53;
+  width: 300px;
+  z-index: 100;
+  padding: 2px 0
+}
+
+#container {
+  background: #202020;
+  border: 2px solid #000;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+}
+
+#container canvas {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#container canvas#lines {
+  z-index: 10;
+}
